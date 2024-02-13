@@ -1,6 +1,6 @@
 [project]
 name = "datasette-enrichments-ollama"
-version = "0.3"
+version = "0.1"
 description = "Datasette enrichment for analyzing row data using a locally hosted - or remote - ollama instance"
 readme = "README.md"
 authors = [{name = "Marcus Davidson"}]

@@ -2,7 +2,7 @@
 
 [![PyPI](https://img.shields.io/pypi/v/datasette-enrichments-ollama.svg)](https://pypi.org/project/datasette-enrichments-ollama/)
 [![Changelog](https://img.shields.io/github/v/release/mdav43/datasette-enrichments-ollama?include_prereleases&label=changelog)](https://github.com/datasette/datasette-enrichments-ollama/releases)
-[![Test](https://github.com/mdav43/datasette-enrichments-ollama/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/mdav43/datasette-enrichments-ollama/actions/workflows/test.yml)
+[![Tests](https://github.com/mdav43/datasette-enrichments-ollama/workflows/Test/badge.svg)](https://github.com/mdav43/datasette-enrichments-ollama/actions?query=workflow%3ATest)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/mdav43/datasette-enrichments-ollama/blob/main/LICENSE)
 
 Datasette enrichment for analyzing row data using a locally hosted Ollama instance
