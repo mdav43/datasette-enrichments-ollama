@@ -14,7 +14,6 @@ from wtforms import (
 from wtforms.validators import ValidationError, DataRequired
 import secrets
 import sqlite_utils
-import requests
 
 
 @hookimpl
