@@ -16,10 +16,10 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/datasette/datasette-enrichments-gpt"
-Changelog = "https://github.com/datasette/datasette-enrichments-gpt/releases"
-Issues = "https://github.com/datasette/datasette-enrichments-gpt/issues"
-CI = "https://github.com/datasette/datasette-enrichments-gpt/actions"
+Homepage = "https://github.com/mdav43/datasette-enrichments-ollama"
+Changelog = "https://github.com/mdav43/datasette-enrichments-ollama/releases"
+Issues = "https://github.com/mdav43/datasette-enrichments-ollama/issues"
+CI = "https://github.com/mdav43/datasette-enrichments-ollama/actions"
 
 [project.entry-points.datasette]
 enrichments_ollama = "datasette_enrichments_ollama"
