@@ -7,6 +7,7 @@
 
 Datasette enrichment for analyzing row data using a locally hosted Ollama instance
 
+I'm not a programmer so feel free to takeover this repo through a fork.
 
 ## Requirement
 
