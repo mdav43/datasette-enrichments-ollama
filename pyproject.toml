@@ -1,9 +1,9 @@
 [project]
-name = "datasette-enrichments-gpt"
+name = "datasette-enrichments-ollama"
 version = "0.3"
-description = "Datasette enrichment for analyzing row data using OpenAI's GPT models"
+description = "Datasette enrichment for analyzing row data using a locally hosted - or remote - ollama instance"
 readme = "README.md"
-authors = [{name = "Simon Willison"}]
+authors = [{name = "Marcus Davidson"}]
 license = {text = "Apache-2.0"}
 classifiers=[
     "Framework :: Datasette",
@@ -22,7 +22,7 @@ Issues = "https://github.com/datasette/datasette-enrichments-gpt/issues"
 CI = "https://github.com/datasette/datasette-enrichments-gpt/actions"
 
 [project.entry-points.datasette]
-enrichments_gpt = "datasette_enrichments_gpt"
+enrichments_ollama = "datasette_enrichments_ollama"
 
 [project.optional-dependencies]
 test = ["pytest", "pytest-asyncio"]

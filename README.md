@@ -1,9 +1,9 @@
-# datasette-enrichments-gpt
+# datasette-enrichments-ollama
 
-[![PyPI](https://img.shields.io/pypi/v/datasette-enrichments-gpt.svg)](https://pypi.org/project/datasette-enrichments-gpt/)
-[![Changelog](https://img.shields.io/github/v/release/datasette/datasette-enrichments-gpt?include_prereleases&label=changelog)](https://github.com/datasette/datasette-enrichments-gpt/releases)
-[![Tests](https://github.com/datasette/datasette-enrichments-gpt/workflows/Test/badge.svg)](https://github.com/datasette/datasette-enrichments-gpt/actions?query=workflow%3ATest)
-[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/datasette/datasette-enrichments-gpt/blob/main/LICENSE)
+[![PyPI](https://img.shields.io/pypi/v/datasette-enrichments-ollama.svg)](https://pypi.org/project/datasette-enrichments-ollama/)
+[![Changelog](https://img.shields.io/github/v/release/datasette/datasette-enrichments-ollama?include_prereleases&label=changelog)](https://github.com/datasette/datasette-enrichments-ollama/releases)
+[![Tests](https://github.com/datasette/datasette-enrichments-ollama/workflows/Test/badge.svg)](https://github.com/datasette/datasette-enrichments-ollama/actions?query=workflow%3ATest)
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/datasette/datasette-enrichments-ollama/blob/main/LICENSE)
 
 Datasette enrichment for analyzing row data using OpenAI's GPT models
 
@@ -11,20 +11,20 @@ Datasette enrichment for analyzing row data using OpenAI's GPT models
 
 Install this plugin in the same environment as Datasette.
 ```bash
-datasette install datasette-enrichments-gpt
+datasette install datasette-enrichments-ollama
 ```
 ## Configuration
 
-This plugin needs an OpenAI API key. Configure that in `metadata.yml` like so
+This plugin needs an API url for the ollama instance. Configure that in `metadata.yml` like so
 ```yaml
 plugins:
-  datasette-enrichments-gpt:
+  datasette-enrichments-ollama:
     api_key: sk-..
 ```
 Or to avoid that key being visible on `/-/metadata` set it as an environment variable and use this:
 ```yaml
 plugins:
-  datasette-enrichments-gpt:
+  datasette-enrichments-ollama:
     api_key:
       $env: OPENAI_API_KEY
 ```
@@ -37,7 +37,7 @@ Once installed, this plugin will allow users to select rows to enrich and run th
 
 To set up this plugin locally, first checkout the code. Then create a new virtual environment:
 ```bash
-cd datasette-enrichments-gpt
+cd datasette-enrichments-ollama
 python3 -m venv venv
 source venv/bin/activate
 ```
