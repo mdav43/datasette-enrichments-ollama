@@ -48,7 +48,6 @@ class OllamaEnrichment(Enrichment):
             model = SelectField(
                 "Model",
                 choices=[
-                    ("dolphin-phi:latest", "dolphin-phi:latest"),
                     ("gemma3:4b", "gemma3:4b"),
                     ("another", "another"),
                 ],
