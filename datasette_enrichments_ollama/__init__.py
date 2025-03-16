@@ -49,9 +49,10 @@ class OllamaEnrichment(Enrichment):
                 "Model",
                 choices=[
                     ("dolphin-phi:latest", "dolphin-phi:latest"),
+                    ("gemma3:4b", "gemma3:4b"),
                     ("another", "another"),
                 ],
-                default="dolphin-phi:latest",
+                default="gemma3:4b",
             )
             prompt = TextAreaField(
                 "Prompt",
